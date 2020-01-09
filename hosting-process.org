@@ -98,7 +98,6 @@
    an issue should be raised in the engineers-forum under Virtual-Labs
    organisation in GitHub. The issue will have the type hosting-request
    and must have the following information:
-   1. 
    1. Repository URL
    1. Branch/Tag to be deployed
    1. Contact details of the repo owner
@@ -123,6 +122,13 @@
        If the repo owner wants to revert to an earlier branch/tag, a new
        hosting request linked to the original one will be raised. The
        original request will be marked as reverted in such a case.
+    1. The following information will be stored at a central place for a
+       quick reference:
+       1. Hosting unit name
+       1. Repository URL
+       1. Currently hosted Branch/Tag
+       1. Previously hosted Branch/Tag
+       1. Date/Time of hosting
 * Block Diagram of the Hosting Process
 The block diagram depicting development, testing and hosting of a lab is given as :
 
